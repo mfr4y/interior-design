@@ -19,14 +19,37 @@ body {
     justify-content: center;
 }
 
+.hero-content {
+    font-size: 20px;
+    color: white;
+    width: 600px;
+    margin-right: 350px;
+}
+
 .hero h1 {
     color: var(--secondary);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 13px;
+    margin-bottom: 15px;
+}
+
+.nav-start-cta {
+    color: var(--secondary);
+    background: var(--primary);
+    border-radius: 15px;
 }
 
 nav a {
     font-family: 'Figtree';
     text-decoration: none;
     color: black;
+    padding: 15px;
 }
 
 nav a:hover {
