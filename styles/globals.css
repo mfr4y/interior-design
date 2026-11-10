@@ -1,0 +1,85 @@
+:root {
+    --primary: #212731;
+    --secondary: #F2F4F8;
+    --font: 'Figtree';
+}
+
+body {
+    font-family: 'Figtree';font-size: 22px;
+    overflow: hidden;
+}
+
+.hero {
+    display: flex;
+    background-image: url("../public/images/hero-bg.png");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    color: var(--secondary);
+}
+
+nav a {
+    font-family: 'Figtree';
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero-text {
+    width: 500px;
+}
+
+.hero-title-master {
+    font-weight: normal;
+}
+
+.hero-title-secondary {
+    font-weight: bolder;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+}
+
+.cta-primary {
+    color: var(--secondary);
+    background-color: var(--primary);
+    padding: 17px;
+    border-radius: 15px;
+    border: 1px solid var(--primary);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cta-secondary {
+    color: var(--primary);
+    background-color: var(--secondary);
+    padding: 17px;
+    border-radius: 15px;
+    border: 1px solid var(--secondary);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cta-primary:hover {
+    text-decoration: underline;
+    transition-delay: 100ms;
+}
+
+.cta-secondary:hover {
+    text-decoration: underline;
+    transition-delay: 100ms;
+}
