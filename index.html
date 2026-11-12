@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <title>Architecte d'Intérieur</title>
     <link rel="stylesheet" href="styles/globals.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/about-me.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/testimonials.css">
     <link href='https://fonts.googleapis.com/css?family=Figtree' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <a href="#">Accueil</a>
-            <a href="#">A propos</a>
+            <a href="#">Avantages</a>
+            <a href="#">Services</a>
             <a href="#">Projets</a>
             <a href="#">Avis</a>
             <a href="#" class="nav-start-cta">Commencer</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
+        <section class="hero">
             <div class="hero-content">
                 <h1 class="hero-title-master">Révélez le potentiel de</h1>
                 <h1 class="hero-title-secondary">chaque espace.</h1>
@@ -26,59 +34,57 @@
                     <a href="#" class="cta-secondary">Mes projets</a>
                 </div>
             </div>
-        </div>
+        </section>
         <section class="about-me">
-            <div class="about-me-content">
+            <div class="about-me-left">
+                <h2>Avantages</h2>
                 <img src="public/images/about-me-pic.jpg" alt="Images de personnes choisissant des couleurs" class="about-me-image">
-                <div class="about-me-text">
-                    <h2>Avantages</h2>
-                    <div class="about-me-cards">
-                        <article>
-                            <h1>Flexibilité</h1>
-                            <p>Une approche humaine et créative, centrée sur vos usages et vos envies</p>
-                        </article>
-                        <article>
-                            <h1>Matériaux</h1>
-                            <p>Des matériaux durables et des fournisseurs locaux privilégiés</p>
-                        </article>
-                        <article>
-                            <h1>Esthétique</h1>
-                            <p>Une expertise esthétique alliée à une rigueur technique</p>
-                        </article>
-                        <article>
-                            <h1>Accompagnement</h1>
-                            <p>Une expertise esthétique alliée à une rigueur technique</p>
-                        </article>
-                    </div>
-                </div>
+            </div>
+            <div class="about-me-cards">
+                <article>
+                    <h3>1. Flexibilité</h3>
+                    <p>Une approche humaine et créative, centrée sur vos usages et vos envies</p>
+                </article>
+                <article>
+                    <h3>2. Matériaux</h3>
+                    <p>Des matériaux durables et des fournisseurs locaux privilégiés</p>
+                </article>
+                <article>
+                    <h3>3. Esthétique</h3>
+                    <p>Une expertise esthétique alliée à une rigueur technique</p>
+                </article>
+                <article>
+                    <h3>4. Accompagnement</h3>
+                    <p>Un accompagnement complet, du croquis à la réception du chantier</p>
+                </article>
             </div>
         </section>
         <section class="service">
             <div class="service-content">
                 <h2>Services</h2>
                 <div class="service-cards">
-                   <article>
-                       <div class="service-text">
-                           <h2>Rénovation d'appartements</h2>
-                           <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants, fonctionnels et chaleureux.</p>
-                       </div>
-                       <img src="public/images/renov-logement-service1.jpg" alt="Image de rénovation d'appartements" class="service-image-srv1">
-                   </article>
-                   <article>
-                       <div class="service-text">
-                           <h2>Aménagement sur mesure</h2>
-                           <p>Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, rangements, cuisines, bureaux...</p>
-                       </div>
-                       <img src="public/images/conception-mobilier-service2.jpg" alt="Image de conception de mobilier" class="service-image-srv2">
-                   </article>
-                   <article>
-                       <div class="service-text">
-                           <h2>Décoration intérieure</h2>
-                           <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une identité unique.</p>
-                       </div>
-                       <img src="public/images/decoration-interieur-service3.jpg" alt="Image de décoration d'intérieur" class="service-image-srv3">
-                   </article>
-               </div>
+                    <article class="service-row">
+                        <img src="public/images/renov-logement-service1.jpg" alt="Rénovation d'appartements" class="service-image">
+                        <div class="service-text">
+                            <h3>Rénovation d'appartements</h3>
+                            <p>Repenser la circulation, les volumes et la lumière pour créer des intérieurs élégants, fonctionnels et chaleureux.</p>
+                        </div>
+                    </article>
+                    <article class="service-row">
+                        <img src="public/images/conception-mobilier-service2.jpg" alt="Conception de mobilier" class="service-image">
+                        <div class="service-text">
+                            <h3>Aménagement sur mesure</h3>
+                            <p>Conception de mobilier intégré et d'espaces adaptés à vos besoins : bibliothèques, rangements, cuisines, bureaux...</p>
+                        </div>
+                    </article>
+                    <article class="service-row">
+                        <img src="public/images/decoration-interieur-service3.jpg" alt="Décoration d'intérieur" class="service-image">
+                        <div class="service-text">
+                            <h3>Décoration intérieure</h3>
+                            <p>Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui donner une identité unique.</p>
+                        </div>
+                    </article>
+                </div>
             </div>
         </section>
         <section class="projects">
@@ -86,19 +92,24 @@
                 <h2>Projets</h2>
                 <div class="projects-articles">
                     <article>
-                        <h2>Appartement Haussmannien – Lyon 6e</h2>
-                        <p></p>
+                        <img src="public/images/haussman-appart-project1.jpg" alt="Appartement Haussmannien">
+                        <h3>Appartement Haussmannien – Lyon 6e</h3>
+                        <p>Rénovation complète d’un appartement de 120 m² : ouverture des espaces, mise en valeur des moulures et création d’une cuisine contemporaine contrastée.</p>
                     </article>
                     <article>
-                        <h2>Maison contemporaine – Annecy</h2>
-                        <p></p>                </article>
-                    <article>
-                        <h2>Studio étudiant – Villeurbanne</h2>
-                        <p></p>
+                        <img src="public/images/interior-appart-project2.jpg" alt="Maison contemporaine">
+                        <h3>Maison contemporaine - Annecy</h3>
+                        <p>Aménagement intérieur complet : création d’un grand espace de vie traversant, matériaux naturels et mobilier sur mesure en bois clair.</p>
                     </article>
                     <article>
-                        <h2>Boutique artisanale – Croix-Rousse</h2>
-                        <p></p>
+                        <img src="public/images/student-studio-project3.jpg" alt="Studio étudiant">
+                        <h3>Studio étudiant – Villeurbanne</h3>
+                        <p>Optimisation d’un petit espace de 25 m² avec mobilier modulable et ambiance minimaliste chaleureuse.</p>
+                    </article>
+                    <article>
+                        <img src="public/images/boutique-project4.jpg" alt="Boutique artisanale">
+                        <h3>Boutique artisanale – Croix-Rousse</h3>
+                        <p>Transformation d’un ancien atelier en boutique lumineuse : jeu de textures entre béton ciré, bois brut et verrières d’atelier.</p>
                     </article>
                 </div>
             </div>

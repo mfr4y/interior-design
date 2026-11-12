@@ -1,0 +1,64 @@
+.about-me {
+    background-color: var(--secondary);
+    padding: 80px 60px;
+    display: flex;
+    gap: 80px;
+    font-family: sans-serif;
+}
+
+.about-me-left {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.about-me-left h2 {
+    font-size: 32px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    color: var(--primary);
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+
+.about-me-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+.about-me-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    flex: 1;
+}
+
+.about-me-cards article {
+    background-color: var(--secondary);
+    border-radius: 30px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: 200ms;
+}
+
+.about-me-cards article:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+}
+
+.about-me-cards h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: var(--primary);
+}
+
+.about-me-cards p {
+    margin: 0;
+    line-height: 1.5;
+    color: var(--primary);
+    font-size: 15px;
+}
